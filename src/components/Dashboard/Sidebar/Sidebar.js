@@ -13,10 +13,10 @@ const Sidebar = () => {
         <div className='sidebar d-flex flex-column justify-content-between col-md-2 py-5 px-4' style={{height:"100vh"}}>
             <ul className="list-unstyled">
                 <li>
-                <Link to="/" className='dec'><FontAwesomeIcon icon={faGripHorizontal} /> <span>Dashboard</span></Link>
+                <Link to="/dashboard/dashboard" className='dec'><FontAwesomeIcon icon={faGripHorizontal} /> <span>Dashboard</span></Link>
                 </li>
                 <li>
-                <Link to="/" className='dec'><FontAwesomeIcon icon={faCalendarPlus} /> <span>Appointments</span></Link>
+                <Link to="/dashboard/appointment" className='dec'><FontAwesomeIcon icon={faCalendarPlus} /> <span>Appointments</span></Link>
                 </li>
                 <li>
                 <Link to="/" className='dec'><FontAwesomeIcon icon={faUsers} /> <span>Patients</span></Link>
